@@ -26,7 +26,6 @@ export const Header = () => {
                   text-white
                   leading-none
                   tracking-tighter
-                  text-neutral-600
                   md:text-5xl
                   lg:text-6xl lg:max-w-7xl
                 '>
