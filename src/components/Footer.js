@@ -2,12 +2,10 @@ export const Footer = () => {
   return (
     <footer className='px-3 py-8  text-gray-900  transition-colors duration-200'>
       <div className='flex flex-col'>
-        <div className='md:hidden mt-7 mx-auto w-11 h-px rounded-full'></div>
         <div className='mt-4 md:mt-0 flex flex-col md:flex-row'>
           <div className='flex-1 flex flex-col items-center justify-center md:items-end md:border-r border-gray-100 md:pr-5'>
             <p>Api by Nasa</p>
           </div>
-          <div className='md:hidden mt-4 mx-auto w-11 h-px rounded-full'></div>
           <div className='mt-4 md:mt-0 flex-1 flex items-center justify-center md:border-r border-gray-100'>
             <a
               className='hover:text-primary-gray-20'
@@ -24,7 +22,6 @@ export const Footer = () => {
               </svg>
             </a>
           </div>
-          <div className='md:hidden mt-4 mx-auto w-11 h-px rounded-full '></div>
           <div className='mt-7 md:mt-0 flex-1 flex flex-col items-center justify-center md:items-start md:pl-5'>
             <span className=''>© 2021</span>
             <span className='mt-7 md:mt-1'>

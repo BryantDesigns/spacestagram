@@ -23,7 +23,7 @@ export const Header = () => {
                   max-w-5xl
                   text-2xl
                   font-bold
-                  text-white
+                  text-slate-800
                   leading-none
                   tracking-tighter
                   md:text-5xl
