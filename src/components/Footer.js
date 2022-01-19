@@ -9,7 +9,7 @@ export const Footer = () => {
           <div className='mt-4 md:mt-0 flex-1 flex items-center justify-center md:border-r border-gray-100'>
             <a
               className='hover:text-primary-gray-20'
-              href='https://github.com/bryantdesigns'>
+              href='https://github.com/BryantDesigns/spacestagram'>
               <span className='sr-only'>View on GitHub</span>
               <svg
                 xmlns='http://www.w3.org/2000/svg'

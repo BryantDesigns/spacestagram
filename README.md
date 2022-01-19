@@ -1,4 +1,19 @@
-# Getting Started with Create React App
+# Shopify Frontend Challenge Summer 2022
+Hi, this is my submission for the Shopify Summer Frontend Developer Challenge! Hope you like it
+
+The app is deployed at [Netlify - Tyler Bryant Challenge](https://shopify-challenge-by-tyler-bryant.netlify.app/)
+
+## Tech stack used:
++ React.js
++ TailwindCSS
++ Lots of coffee:)
+
+## Features
+### This app has following features:
+1. **Like / Unlike Images** Provides a button you can click that remebers your choice on reload.
+2. **Skeleton On Load** Displays skeleton layout until page is fully loaded. 
+3. **Uses Local Storage** Remebers the images loaded by the user for fast loadtimes
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
