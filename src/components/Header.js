@@ -1,7 +1,7 @@
 export const Header = () => {
   return (
     <>
-      <section className='w-full bg-white'>
+      <section className='w-full'>
         <div
           className='
           relative
@@ -23,6 +23,7 @@ export const Header = () => {
                   max-w-5xl
                   text-2xl
                   font-bold
+                  text-white
                   leading-none
                   tracking-tighter
                   text-neutral-600
@@ -30,7 +31,8 @@ export const Header = () => {
                   lg:text-6xl lg:max-w-7xl
                 '>
                   {' '}
-                  Spacestagram: Image-sharing <br className='hidden lg:block' />
+                  Spacestagram: Image-sharing{' '}
+                  <br className='hidden lg:block ' />
                   from the final frontier{' '}
                 </h1>
               </div>

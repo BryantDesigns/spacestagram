@@ -48,7 +48,7 @@ const ImageSection = (props) => {
   if (!isSkeleton) {
     return (
       <>
-        <div className='transition duration-300 transform bg-white rounded shadow-lg hover:-translate-y-1 hover:shadow md:text-center'>
+        <div className='transition duration-300 transform rounded shadow-lg hover:-translate-y-1 hover:shadow md:text-center'>
           <div className='relative'>
             <img src={url} alt={title} width='100%' height='auto' />
           </div>
@@ -57,7 +57,7 @@ const ImageSection = (props) => {
               {title}
             </h2>
             <h3>{earth_date}</h3>
-            <p className='mb-5 text-gray-700'>{explanation}</p>
+            <p className='mb-5 text-gray-800 '>{explanation}</p>
             <LikeButton toggleLike={toggleLike} handleClick={handleClick} />
           </div>
         </div>

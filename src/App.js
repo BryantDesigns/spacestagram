@@ -9,6 +9,7 @@ import { getNasaData } from './api';
 import { ImageSection } from './components';
 import { Header } from './components/Header';
 import './App.css';
+import { Footer } from './components/Footer';
 
 const App = () => {
   const [imagesData, setImagesData] = useState([]);
@@ -59,6 +60,7 @@ const App = () => {
             }
           )}
       </main>
+      <Footer />
     </div>
   );
 };
